@@ -1,0 +1,48 @@
+{
+  "hash": "6d11e9c1",
+  "configHash": "7e28a832",
+  "lockfileHash": "9fe23870",
+  "browserHash": "b9af9fd8",
+  "optimized": {
+    "gsap": {
+      "src": "../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "0866f8e9",
+      "needsInterop": false
+    },
+    "gsap/all": {
+      "src": "../../node_modules/gsap/all.js",
+      "file": "gsap_all.js",
+      "fileHash": "3c7ef3f1",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "371e7a0e",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "cd6f84a2",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "b82e0162",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "CSSPlugin-DR9Wafg_": {
+      "file": "CSSPlugin-DR9Wafg_.js",
+      "isDynamicEntry": false
+    },
+    "react-Na5-BvaJ": {
+      "file": "react-Na5-BvaJ.js",
+      "isDynamicEntry": false
+    }
+  }
+}
