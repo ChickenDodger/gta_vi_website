@@ -2,18 +2,18 @@
 
 @font-face {
     font-family: "Long";
-    src: url("public/fonts/long.woff");
+    src: url('/fonts/long.woff') format('woff');
 }
 
 @font-face {
     font-family: "Round";
-    src: url("public/fonts/round.woff");
+    src: url('/fonts/round.woff') format('woff');
 }
 
 @font-face {
     font-family: "Round Bold";
     font-weight: bold;
-    src: url("public/fonts/round-bold.woff");
+    src: url('/fonts/round-bold.woff') format('woff');
 }
 
 @theme {
