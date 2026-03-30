@@ -5,7 +5,7 @@ import { useMaskSettings } from '../../Constants';
 import ComingSoon from "./ComingSoon"
 
 const Hero = () => {
-    const {  initialMaskPos, initialMaskSize, maskPos, maskSize} = useMaskSettings();
+    const {  initialMaskPos, initialMaskSize, maskSize} = useMaskSettings();
 
 
     useGSAP(() => {
