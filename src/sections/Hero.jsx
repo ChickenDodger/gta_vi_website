@@ -4,6 +4,9 @@ import { useGSAP } from "@gsap/react";
 import { useMaskSettings } from "../../Constants/";
 import ComingSoon from "./ComingSoon"
 
+import { ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger);
+
 const Hero = () => {
     const { initialMaskPos, initialMaskSize, maskSize } = useMaskSettings();
 
@@ -13,7 +16,7 @@ const Hero = () => {
             maskSize: initialMaskSize,
         });
 
-       // gsap.set('.mask-logo', { marginTop: '-100vh', opacity: 0 });
+       gsap.set('.mask-logo', { marginTop: '-100vh', opacity: 0 });
 
         gsap.set('.entrance-message', { marginTop: '0vh' });
 
