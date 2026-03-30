@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-
+//fix casing
 import { useMaskSettings } from '../../Constants';
 import ComingSoon from "./ComingSoon"
 
