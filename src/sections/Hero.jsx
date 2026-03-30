@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
-import { useMaskSettings } from "../../Constants/index.js";
+import { useMaskSettings } from "../../Constants/";
 import ComingSoon from "./ComingSoon"
 
 const Hero = () => {
