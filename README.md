@@ -1,32 +1,68 @@
+# GTA VI Cinematic Landing Page Clone
 
-# gta_vi_website
-GTA VI landing page clone, using GSAP, Tailwind, React, JS and HTML
+A visually striking, highly interactive **Grand Theft Auto VI landing page clone** designed to replicate a high-end cinematic web experience. This project heavily utilises scroll-driven animations, parallax effects, and synchronised media playback to deliver an immersive user experience.
 
-⚙️ Tech Stack
+## 🚀 Tech Stack
 
-    GSAP is a powerful JavaScript animation library used in this project to create dynamic, scroll-driven visuals. Features include SplitText animations for bold text reveals, ScrollTrigger for timeline control, parallax scrolling, pinned sections, scroll-synced video playback, seamless multi-section timelines, image masking effects, and a fully custom animated carousel.
+- **Framework:** [React](https://react.dev)
+- **Build Tool:** [Vite](https://vite.dev)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com)
+- **Animation Libraries:** [GSAP (GreenSock Animation Platform)](https://gsap.com) with ScrollTrigger & SplitText
 
-    React is a declarative JavaScript library for building interactive UIs. It provides the component structure for modular development, allowing smooth integration of GSAP animations, reusable logic for scroll behavior, and support for responsive layout and state-driven UI features like carousels and video sections.
+## ✨ Features
 
-    Tailwind CSS is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
+- **Scroll-Driven Cinematic Animations:** Smooth multi-section transitions controlled via GSAP ScrollTrigger.
+- **Synchronised Video Playback:** Videos that seamlessly play, pause, or alter speed based on the user's scroll position.
+- **Dynamic Text Masking & Parallax:** Immersive visual layering using image masking and parallax background effects.
+- **Custom Media Carousel:** A fully responsive carousel showing game trailers, teasers, and high-resolution screenshots.
+- **Fully Responsive Design:** Tailored layouts providing a consistent experience across desktop, tablet, and mobile displays.
 
-    Vite is a lightning-fast build tool and development server that powers this project’s workflow. It enables instant hot module replacement, fast startup, and optimized production builds—ideal for an animation-heavy React site with smooth, real-time development feedback and minimal config.
+## 📦 Getting Started
 
+Follow these steps to set up the project locally on your machine.
 
-# React + Vite
+### Prerequisites
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ensure you have the following installed:
+- [Git](https://git-scm.c)
+- [Node.js](https://nodejs.org) 
+- `npm` or `yarn`
 
-Currently, two official plugins are available:
+### Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ChickenDodger/gta_vi_website.git
+   cd gta_vi_website
+   ```
 
-## React Compiler
+2. **Install project dependencies:**
+   ```bash
+   npm install
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. **Start the local development server:**
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
+The application will be accessible locally at `http://localhost:5173`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 70f5d6b (Cleaned up the boilerplate, added the assets and set up the dependencies)
+## 🛠️ Production Build
+
+To compile the application into optimised static assets for production, run:
+
+```bash
+npm run build
+```
+
+The output files will be generated in the `dist/` directory, ready to be deployed to hosting platforms like Vercel, Netlify, or GitHub Pages.
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+## 🙌 Acknowledgements
+
+- Inspired by Rockstar Games' official GTA VI marketing material.
+- Built following design workflows from [JavaScript Mastery](https://github.com/adrianhajdin).
